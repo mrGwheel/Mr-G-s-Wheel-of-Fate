@@ -88,7 +88,7 @@ main {
 }
 
 .center-image {
-  display: block;
+  display: inline;
   max-width: 9rem;
   position: absolute;
   z-index: 3;
@@ -259,7 +259,7 @@ body.punish-mode .center-image {
 }
 
 body.punish-mode .center-image-punish {
-  display: block;
+  display: inline;
 }
 
 /* This did not work for github pages?
