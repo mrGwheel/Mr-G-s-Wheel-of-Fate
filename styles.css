@@ -247,7 +247,7 @@ body.punish-mode #spinButton {
 }
 
 body.punish-mode .center-image {
-  content: url(/images/daveMad.webp);
+  content: url(images/daveMad.webp);
 }
 
 body.punish-mode #namesInput {
