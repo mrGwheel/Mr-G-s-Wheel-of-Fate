@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/daveFav.png" type="image/x-icon" />
+    <title>Mr G's Wheel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img class="logo" src="/images/dave.webp" alt="Dave" />
+        <h1>Mr G's Wheel of Fate</h1>
+      </div>
+      <div class="theme-toggle">
+        <label for="themeSwitch">Punish Round:</label>
+        <input type="checkbox" id="themeSwitch" />
+      </div>
+    </header>
+
+    <main>
+      <div class="wheel-container">
+        <img class="center-image" src="/images/dave1.webp" alt="dave" />
+        <canvas id="wheelCanvas"></canvas>
+        <svg
+          class="arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          width="64"
+          height="64"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16 4h-5.439l4.025 4.006h-14.586v7.988h14.586l-4.025 4.006h5.439l8-8z"
+            stroke="#fdfdfd"
+            stroke-width="0.75"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div class="name-input">
+        <h2>Students</h2>
+        <textarea id="namesInput" placeholder="Enter names here..."></textarea>
+      </div>
+    </main>
+
+    <div id="winnerModal" class="modal">
+      <div class="modal-content">
+        <p id="winnerName"></p>
+        <p>You have been selected!</p>
+        <button id="modalButton">close</button>
+      </div>
+    </div>
+
+    <footer>
+      <button id="spinButton">Spin the Wheel!</button>
+    </footer>
+
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Chart JS Plugin for displaying text over chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
