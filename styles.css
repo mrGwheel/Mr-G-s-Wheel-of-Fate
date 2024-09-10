@@ -95,7 +95,7 @@ main {
 }
 
 .center-image {
-  display: hidden;
+  display: none;
   max-width: 9rem;
   position: absolute;
   z-index: 3;
@@ -255,7 +255,7 @@ body.punish-mode #spinButton {
 }
 /* new method */
 body.punish-mode .center-image {
-  display: hidden;
+  display: none;
 }
 
 body.punish-mode .center-image-punish {
