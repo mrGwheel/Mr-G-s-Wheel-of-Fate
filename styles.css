@@ -25,6 +25,7 @@ body {
   justify-content: space-between;
   background-color: var(--luckBackground);
   color: var(--punishBackground);
+  height: 100vh;
 }
 
 /* Header styles */
