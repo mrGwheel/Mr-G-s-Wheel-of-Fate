@@ -14,7 +14,7 @@
 
 html,
 body {
-  /*height: 100%; */
+  max-height: 100vh;
   font-family: var(--body-font);
 }
 
@@ -25,7 +25,6 @@ body {
   justify-content: space-between;
   background-color: var(--luckBackground);
   color: var(--punishBackground);
-  height: 95vh;
 }
 
 /* Header styles */
@@ -45,7 +44,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-
   width: 95%;
   margin: auto;
 }
