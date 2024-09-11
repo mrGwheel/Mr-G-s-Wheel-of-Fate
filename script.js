@@ -223,7 +223,10 @@ const determineWinner = (finalRotation) => {
     const modal = document.getElementById("winnerModal");
     const winnerName = document.getElementById("winnerName");
     winnerName.textContent = `${winner}!`;
-    modal.style.display = "block";
+     setTimeout(() => {
+      modal.style.display = "block";
+    }, 1000);
+
 
     // Optional: Hide after a few seconds
     /*setTimeout(() => {
