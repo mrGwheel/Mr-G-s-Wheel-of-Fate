@@ -83,7 +83,8 @@ main {
   justify-content: space-around;
   width: 90%;
   margin: auto;
-  max-height: 75vh;
+  height: 75vh;
+  padding: 1rem 0;
 }
 
 .center-image {
@@ -150,7 +151,7 @@ main {
   transition: background-color 0.5s ease, color 0.5s ease;
   width: 100%;
   max-height: 800px;
-  min-height: 500px;
+  min-height: 350px;
   padding: 10px;
   font-size: 1.5rem;
   border: 1px solid #ccc;
