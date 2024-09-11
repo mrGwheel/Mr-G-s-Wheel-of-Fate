@@ -225,7 +225,7 @@ const determineWinner = (finalRotation) => {
     winnerName.textContent = `${winner}!`;
      setTimeout(() => {
       modal.style.display = "block";
-    }, 1000);
+    }, 500);
 
 
     // Optional: Hide after a few seconds
