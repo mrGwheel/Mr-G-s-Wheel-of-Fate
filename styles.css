@@ -184,7 +184,7 @@ main {
 }
 
 #modalButton {
-  margin-top: 1.5rem 0.3rem;
+  margin: 1.5rem 0.3rem;
   padding: 10px 20px;
   font-size: 1.5rem;
   background-color: var(--punishBackground);
@@ -206,7 +206,7 @@ main {
 }
 
 #removeSelectedButton {
-  margin-top: 1.5rem 0.3rem;
+  margin: 1.5rem 0.3rem;
   padding: 10px 20px;
   font-size: 1.5rem;
   background-color: var(--punishBackground);
