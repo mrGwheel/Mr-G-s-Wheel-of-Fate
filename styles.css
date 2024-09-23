@@ -180,15 +180,15 @@ main {
 }
 
 .modal p {
-  color: var(--punishlight);
-}
 
+}
+var(--luckBackground)
 #modalButton {
   margin: 1.5rem 0.3rem;
   padding: 10px 20px;
   font-size: 1.5rem;
-  background-color: var(--punishBackground);
-  color: var(--luckBackground);
+  background-color: var(--punishlight);;
+  color: var(--punishBackground);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -196,12 +196,12 @@ main {
 }
 
 #modalButton:hover {
-  background-color: var(--punishlight);
+  color: var(--punishBackground);
   transform: scale(1.15);
 }
 
 #modalButton:active {
-  background-color: var(--punishBackground);
+ 
   transform: scale(1);
 }
 
