@@ -205,6 +205,28 @@ main {
   transform: scale(1);
 }
 
+#removeSelectedButton {
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: var(--punishBackground);
+  color: var(--luckBackground);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#removeSelectedButton:hover {
+  background-color: var(--punishlight);
+  transform: scale(1.15);
+}
+
+#removeSelectedButton:active {
+  background-color: var(--punishBackground);
+  transform: scale(1);
+}
+
 #winnerName {
   font-family: var(--heading-font);
   font-size: 3.5rem;
