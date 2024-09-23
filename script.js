@@ -258,3 +258,28 @@ themeSwitch.addEventListener("change", () => {
     body.classList.remove("punish-mode");
   }
 });
+
+// Get the remove winner button
+const removeWinnerButton = document.getElementById("removeSelectedButton");
+
+// Add an event listener to the "Remove Winner" button
+removeWinnerButton.addEventListener("click", () => {
+  // Get the winner name
+  const winnerName = document
+    .getElementById("winnerName")
+    .textContent.replace("!", "");
+
+  // Remove the winner's name from the array of names
+  names = names.filter((name) => name !== winnerName);
+
+  // Update the textarea to reflect the removed winner
+  namesInput.value = names.join("\n");
+
+  // Update the chart after removing the winner
+  updateChart();
+
+  // Close the modal after removing the winner
+  const modal = document.getElementById("winnerModal");
+  modal.style.display = "none";
+});
+
