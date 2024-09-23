@@ -335,3 +335,15 @@ body.punish-mode .theme-toggle label {
     max-width: 7rem;
   }
 }
+
+@media (max-height: 860px) {
+  header {
+    padding: 10px 20px 0 20px;
+  }
+  footer {
+    padding: 0 20px 15px 20px;
+  }
+  main {
+    padding: 15px 0 0 0;
+  }
+}
